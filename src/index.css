@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "CodePro";
+  font-weight: normal;
+  src: url("./font/code-pro.otf") format("opentype");
+}
+
+:root {
+  font-family: "CodePro", sans-serif;
+}
+
+input[type="date"]::-webkit-datetime-edit-month-field,
+input[type="date"]::-webkit-datetime-edit-day-field,
+input[type="date"]::-webkit-datetime-edit-year-field,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: black;
+}
