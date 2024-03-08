@@ -52,7 +52,7 @@ const DataFilter = () => {
           max={toDate}
           value={fromDate}
           onChange={(e) => setFromDate(e.target.value)}
-          className="bg-textlight dark:bg-bgdark shadow-inner shadow-black px-5 lg:px-10 py-3 border-2 border-gray-300 rounded-md focus:outline-none focus:border-stellar transition-all duration-300 ease-in-out hover:border-stellar"
+          className="bg-textlight dark:bg-bgdark shadow-inner shadow-black pl-5 pr-2 lg:px-10 py-3 border-2 border-gray-300 rounded-md focus:outline-none focus:border-stellar transition-all duration-300 ease-in-out hover:border-stellar"
         />
       </span>
       <span className="flex flex-col">
@@ -69,7 +69,7 @@ const DataFilter = () => {
           max={toDate}
           value={toDate}
           onChange={(e) => setToDate(e.target.value)}
-          className="bg-textlight dark:bg-bgdark shadow-inner shadow-black px-5 lg:px-10 py-3 border-2 border-gray-300 rounded-md focus:outline-none focus:border-stellar transition-all duration-300 ease-in-out hover:border-stellar"
+          className="bg-textlight dark:bg-bgdark shadow-inner shadow-black pl-5 pr-2 lg:px-10 py-3 border-2 border-gray-300 rounded-md focus:outline-none focus:border-stellar transition-all duration-300 ease-in-out hover:border-stellar"
         />
       </span>
       <Icon

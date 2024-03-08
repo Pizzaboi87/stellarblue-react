@@ -97,12 +97,16 @@ const Chart = () => {
       },
     },
     yaxis: {
+      show: true,
       title: {
         text: "Price in euro  (€)",
       },
       min: minimum! - 5,
       max: maximum! + 5,
       tickAmount: 5,
+      labels: {
+        show: true,
+      },
     },
     legend: {
       position: "top",
@@ -125,8 +129,14 @@ const Chart = () => {
     },
     responsive: [
       {
-        breakpoint: 1000,
+        breakpoint: 768,
         options: {
+          yaxis: {
+            show: false,
+            labels: {
+              show: false,
+            },
+          },
           legend: {
             position: "bottom",
             offsetY: 5,

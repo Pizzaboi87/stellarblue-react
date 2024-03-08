@@ -69,7 +69,7 @@ const Table = () => {
             type="checkbox"
             checked={showColumns[c.name]}
             onChange={() => toggleColumnVisibility(c.name)}
-            className="w-4 h-4 ml-2"
+            className="w-4 h-4 ml-2 mb-1 md:mb-0"
           />
         </div>
       ))}
